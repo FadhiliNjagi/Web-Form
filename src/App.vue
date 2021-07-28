@@ -1,16 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SignUpForm />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SignUpForm from './components/SignUpForm.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: { SignUpForm }
 }
 </script>
 
@@ -21,6 +18,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
+}
+body {
+    margin: 0;
+    background: #eee;
 }
 </style>
